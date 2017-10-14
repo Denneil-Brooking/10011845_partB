@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
+body {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 0px;
+    background-image: url("images/background.gif");
+    background-attachment: fixed;
+    background-position: center 80%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header {
+    align-content: center;
+    text-align: center;
+    color: #FF1DF4;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 30px;
+    padding-top: 40px;
+}
+
+.logo {
+    position: absolute;
+    align-content: center;
+    text-align: center;
+    width: 330px;
+    height: 80px;
+    top: 0;
+}
+
+.Convert {
+    align-content: center;
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+    color: #FF1DF4;
+    font-size: 20px;
+    left: 50px;
+    padding-top: 2px;
+    border: 2px solid rgba(255, 29, 247, 0.58);
+    background-color: rgba(236, 153, 58, 0);
+    background-image: url(images/background.gif);
+    background-position: left 100%;
+    background-repeat: no-repeat;
+    background-size: 600%;
+    width: 330px;
+    height: 430px;
+}
+
+.Convert [type=submit] {
+    color: #000000;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 20px;
+    background-color: #FFFFFF;
+    border: 2px solid #FF1DF4;
+}
+
+.Convert :hover[type=submit] {
+    color: #000000;
+    font-family: 'Kaushan Script', cursive;
+    background-color: #8AF1FF;
+    border: 2px solid #282163;
+}
+
+.box {
+    position: absolute;
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+    color: #1E1C4E;
+    font-size: 25px;
+    left: 62px;
+    border: 10px solid #DADADA;
+    background-color: rgba(138, 241, 255, 0.66);
+    width: 290px;
+    height: 170px;
+    top: 300px;
+    padding-top: 10px;
+}
+
+.box [type=reset] {
+    color: #000000;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 20px;
+    background-color: #FFFFFF;
+    border: 2px solid #FF1DF4;
+}
+
+.box :hover[type=reset] {
+    color: #000000;
+    font-family: 'Kaushan Script', cursive;
+    background-color: #8AF1FF;
+    border: 2px solid #282163;
+}
+
+.footer {
+    text-align: left;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 15px;
+    position: fixed;
+    width: 100%;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    border: 1px solid #000000;
+    background-color: rgba(0, 0, 0, 0.48);
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>TempBot</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+        <div class="header">
+                TempBot
+        </div>
+        <div class="logo">
+                <img src="images\logo01.png" width="110px" height="110px">
+        </div>
+
+        <!--form to home all the friends-->
+        <form name="Convert" method="post" onsubmit="return submit()">
+                <div class="Convert">
+                        <!--field for user input-->
+                        <p>Number to convert: <br>
+                                <input type="number" id="input" placeholder="Enter a number" pattern="[0-9]{1,}" /></p>
+                        <!--Two radio button to pick conversion type-->
+                        <p>:Select one of the below options: <br>
+                                <input type="radio" name="temp" id="C" value="1"> <label>°C to °F </label>
+                                <br>
+                                <input type="radio" name="temp" id="F" value="2"><label>°F to °C</label>
+                        </p>
+
+
+                        <!--Results box, where results will be displayed -->
+                        <div class="box">
+                                :Results:<br> <span id="result"></span><br><br>
+                                <!--Reset button to clean all fields-->
+                                <div class="button">
+                                        <input type="reset" id="reset" value="Reset " onClick="window.location.reload()">
+                                </div>
+                        </div>
+
+                </div>
+        </form>
+
+        <div class="footer" Style="color:#FFFFFF">Copyright © 2017 &nbsp;&nbsp; Denneil Brooking (#10011845) &nbsp;&nbsp;&nbsp;<a>COMP5202 PartB</a> &nbsp;&nbsp;&nbsp;
+                <a href="http://aceofsaves.tumblr.com/post/102013454410/bee-and-puppycat-hannah-hart-as-temp-bot">Background Image: Bee and PuppyCat</a>
+        </div>
+
+        <script src="script.js"></script>
+</body>
+
+</html>
